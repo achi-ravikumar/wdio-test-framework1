@@ -1,0 +1,27 @@
+{
+  "name": "Products test",
+  "version": "1.0.0",
+  "description": "test exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install && node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.16.13",
+    "chai": "^4.3.4",
+    "chromedriver": "^108.0.0",
+    "webdriverio": "^7.16.13",
+    "webdriverio-cucumber-steps": "^1.0.0"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^7.16.13",
+    "@wdio/local-runner": "^7.16.13",
+    "@wdio/spec-reporter": "^7.16.13",
+    "fs-extra": "^10.0.0",
+    "multiple-cucumber-html-reporter": "^1.18.3",
+    "wdio-chromedriver-service": "^7.2.6",
+    "wdio-cucumberjs-json-reporter": "^4.2.0"
+  }
+}
